@@ -6,10 +6,8 @@ body{
     
     text-align: center;
     margin: auto;
-    width: 500px;
-    background-color: #252733;
-    
-    
+    width: 60vw;
+    background-color: #252733;   
    
 }
 
@@ -42,7 +40,7 @@ main{
     display: block;
     text-align: center;
     justify-content: center;
-    background-color: #de4a27;
+    background-color: #134e4a;
     /* margin: auto ; */
     padding-top: 10vh;
     padding-left: 2rem;
@@ -114,4 +112,39 @@ footer p{
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 150;
  color: #4752f9;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 80vw;
+  }
+  h1,p{
+    margin: 0.5rem;
+  }
+  main{
+    padding-top: 3vh;
+    height: 80vh;
+    padding-bottom: 1rem;
+    background-color: #134e4a;
+  }
+  label{
+    
+    font-size: 1rem;
+  }
+  input{
+    margin-top: 0px;
+    
+  }
+  table{
+   margin-left: -1.5rem;
+    padding: 0px;
+  }
+  footer,img{
+    bottom: 1px;
+  }
+  footer img{
+    width: 25px;
+  }
+  
+ 
 }
