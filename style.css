@@ -204,3 +204,10 @@ footer p{
   
  
 }
+footer ul{
+  list-style-type: none;
+  padding: auto;
+}
+a{
+  text-decoration: none;
+}
